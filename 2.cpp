@@ -3,22 +3,22 @@ using namespace std;
 int main()
 {
 
-	int arr[10], i, num, n, c=0, pos;
-	cout<<"Enter the array size : ";
+	int a[10], i, num, n, c=0, p;
+	cout<<"Enter size of array : ";
 	cin>>n;
-	cout<<"Enter Array Elements : ";
+	cout<<"Enter the Elements : ";
 	for(i=0; i<n; i++)
 	{
-		cin>>arr[i];
+		cin>>a[i];
 	}
-	cout<<"Enter the number to search : ";
+	cout<<"Enter the number you want to search : ";
 	cin>>num;
 	for(i=0; i<n; i++)
 	{
-		if(arr[i]==num)
+		if(a[i]==num)
 		{
 			c=1;
-			pos=i+1;
+			p=i+1;
 			break;
 		}
 	}
@@ -28,8 +28,8 @@ int main()
 	}
 	else
 	{
-		cout<<num<<" found at position "<<pos;
+		cout<<num<<" found at position "<<p;
 	}
-
+return 0;
 }
 
