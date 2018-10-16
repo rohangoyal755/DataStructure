@@ -2,6 +2,7 @@
 using namespace std;
 int a[20];
 int n,val,i,j,pos,temp;
+//this is for insertion 
 
 void insert()
 {
