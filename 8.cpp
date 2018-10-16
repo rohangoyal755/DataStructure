@@ -28,11 +28,11 @@ cout<<endl;
 
 int main()
 {
-cout<<"Enter the size of array"<<endl;
+cout<<"Enter the size"<<endl;
 int n;
 cin>>n;
 int a[n+1];
-cout<<"Enter the elements"<<endl;
+cout<<"Enter elements"<<endl;
 for(int i=0;i<n;i++)
 cin>>a[i];
 
@@ -41,7 +41,7 @@ insertion_sort(a,n);
 cout<<"Sorted array is"<<endl;
 display(a,n);
 
-cout<<"Enter the element to be inserted"<<endl;
+cout<<"Enter element to be inserted"<<endl;
 int e;
 cin>>e;
 a[n]=e;
