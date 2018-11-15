@@ -32,7 +32,7 @@ void del()
 
 void loc()
 {
-	int e,c=0;
+	int e,c=0,d=0;
 	cin>>e;
 	for(int i=0;i<n;i++)
 	{
