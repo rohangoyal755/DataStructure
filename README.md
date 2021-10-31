@@ -18,4 +18,4 @@ Following file contains important codes from Data Structure
 * BST
 * HeapSort
 * Graphs
-
+* Trees
