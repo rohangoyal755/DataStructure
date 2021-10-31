@@ -1,4 +1,4 @@
-# Data Structure
+# Data Structures
 Experiments 1-13 of DS
 Following file contains important codes from Data Structure
 
